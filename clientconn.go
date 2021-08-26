@@ -619,7 +619,7 @@ func (ac *addrConn) connect() error {
 			}
 			return
 		}
-		ac.transportMonitor()
+		//ac.transportMonitor()
 	}()
 	return nil
 }
